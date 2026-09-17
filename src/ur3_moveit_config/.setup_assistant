@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ""
+    relative_path: /home/sebas/ros2_2602/ur3_model/ur3.urdf
+  srdf:
+    relative_path: config/ur3.srdf
+  package_settings:
+    author_name: sebastian palacio
+    author_email: sebastian.palacio21@eia.edu.co
+    generated_timestamp: 1788659236
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
