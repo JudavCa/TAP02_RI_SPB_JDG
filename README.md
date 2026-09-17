@@ -9,7 +9,7 @@
 
 ## Requisitos
 
-- Ubuntu 24.04 (Noble)
+- Ubuntu 24.04 
 - ROS 2 Jazzy Jalisco
 - MoveIt 2
 
@@ -24,7 +24,7 @@ pip3 install numpy
 ## Compilación
 
 ```bash
-git clone <URL_DEL_REPOSITORIO> ros2_2602
+git clone <https://github.com/JudavCa/TAP02_RI_SPB_JDG> ros2_2602
 cd ros2_2602
 source /opt/ros/jazzy/setup.bash
 colcon build --symlink-install
